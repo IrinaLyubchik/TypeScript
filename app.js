@@ -83,3 +83,7 @@ canBeNull = null;
 let canAlsoBeNull;
 canAlsoBeNull = null;
 let canThisBeAny = null;
+// _________________________________________
+let myRealName = "Iryna";
+let myAge1 = 39;
+//# sourceMappingURL=app.js.map

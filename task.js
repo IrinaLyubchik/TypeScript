@@ -12,3 +12,4 @@ let myself2 = {
 };
 myself.bankAccount.deposit(3000);
 console.log(myself);
+//# sourceMappingURL=task.js.map

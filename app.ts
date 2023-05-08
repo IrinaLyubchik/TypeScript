@@ -103,3 +103,10 @@ canBeNull = null;
 let canAlsoBeNull;
 canAlsoBeNull = null;
 let canThisBeAny = null;
+// _________________________________________
+
+let myRealName: string = "Iryna";
+let myAge1: number = 39;
+
+
+
