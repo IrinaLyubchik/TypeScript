@@ -99,3 +99,46 @@ console.log(greeting);
 
 
 
+
+// ________________________________________________________________ 
+
+//Exercise 1 - As Arrow Function
+const double = (value: number) => value * 2;
+console.log(double(10));
+
+//Exercise 2 Default Params
+
+const greet1 = (name: string = "Max") => {
+    console.log("Hello " + name);
+};
+greet1();
+greet1("Anna");
+
+
+// Exercise 3 Spread Operator
+
+const numbers3 = [-3, 33, 38, 5];
+console.log(Math.min(...numbers3)); 
+
+// Exercise 4 Spread Operator
+
+const newArray = [66, 2];
+
+newArray.push(...numbers3);
+
+console.log(newArray);
+
+// Exercise 5 DESTRUCTURING ARRAYS
+
+const testResult = [1.25, 5.24, 3.25];
+const [result1, result2, result3] = testResult;
+
+console.log([result1, result2, result3])
+
+// Exercise 6 DESTRUCTURING OBJECTS 
+const scientist = {firstName: "Will", experience: 12};
+const {firstName, experience} = scientist;
+
+console.log(firstName, experience)
+
+
